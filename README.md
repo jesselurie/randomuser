@@ -5,13 +5,13 @@ Simple web app to display, search and filter users from randomuser.me api
 ## Getting Started
 
 git clone https://github.com/jesselurie/randomuser
-cd randomuser
-npm install
-npm test
-npm start
+cd randomuser__
+npm install__
+npm test__
+npm start__
 
 ### Prerequisites
 
-Node
-React
-Redux
+Node__
+React__
+Redux__
