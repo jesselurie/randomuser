@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.Search {
+    border: 2px solid black;
+    background: #dddddd;
+    border-radius: 25px;
+}
+.searchInput:focus {
+    outline:none;
+}
+
+.Top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  width: 100%;
+  background-color: #1976D2;
+}
+
+.Middle {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: #f7f7f7;
+
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

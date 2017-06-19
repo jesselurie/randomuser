@@ -1,0 +1,28 @@
+@import url("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+.search {
+  display: flex;
+  margin-top: 25px;
+  width: 120px;
+  color: #aaa;
+  font-size: 16px;
+  padding-left: 8%;
+}
+
+.search input {
+  font-size: 13px;
+  text-indent: 10px;
+  width: 100%;
+  border: 1px solid #aaa;
+  border-radius: 15px;
+}
+
+.search input:focus{
+  outline:none;
+}
+
+/*
+.search .fa-search {
+  position: relative;
+  top: 10px;
+  left: 26px;
+}*/

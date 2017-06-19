@@ -1,0 +1,12 @@
+.title  {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.title h1 {
+  margin-right: auto;
+  border-bottom: 2px solid black;
+  width: 100%;
+  text-align: left;
+}
