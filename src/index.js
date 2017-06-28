@@ -1,5 +1,5 @@
 import React from 'react';
-import RenderApp from './containers/RenderApp';
+import App from './components/App';
 import NotFound from './components/NotFound'
 import reducers from './reducers/reducers'
 import {fetchUsers} from './actions/actions'
@@ -33,7 +33,7 @@ render(
   <Provider store={store}>
     <ConnectedRouter history={history}>
       <Switch>
-          <Route exact path="/app" component={RenderApp}/>
+          <Route exact path="/app" component={App}/>
           <Route component={NotFound}/>
       </Switch>
     </ConnectedRouter>

@@ -6,7 +6,6 @@ import './Sort.css';
 class Sort extends Component {
   constructor(props){
     super(props)
-    this.props.onClick.bind(this);
   }
 
   render() {
